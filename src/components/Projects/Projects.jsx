@@ -65,8 +65,8 @@ function Projects() {
       stack: ["HTML", "CSS", "JS", "ReactJS"],
       images: [weatherOne, weatherTwo, weatherThree],
       links: [
-        "https://daily-weather-webapp.netlify.app/",
-        "https://github.com/Daviddix/weather-app",
+        "https://daily-weather-forcast-webapp.netlify.app",
+        "https://github.com/shreyash-0928/weather-forcast-app",
       ],
     },
   ]);
