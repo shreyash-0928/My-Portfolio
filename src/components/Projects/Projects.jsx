@@ -29,7 +29,7 @@ function Projects() {
     {
       name: "Remindr",
       description:
-        "Remindr is a web application made to help web users remember important information / tasks they keep forgetting due to their busy web activity. It uses push notifications to remind them based on the time interval they set.",
+        "Remindr is a web-based tool designed to help users stay on top of important tasks and information that might slip through the cracks during their busy online activities. By utilizing customizable push notifications, it ensures timely reminders at intervals set by the user, making it easier to manage tasks without disrupting their workflow.",
       stack: ["HTML", "CSS", "JS", "ReactJS"],
       images: [remindrOne, remindrTwo, remindrThree],
       links: [
@@ -39,7 +39,7 @@ function Projects() {
     },
     {
       name: "Bulk Image Downloader",
-      description: `Bulk Image Downloader is a web application that eases the burden of bulk image downloading by allowing you download "collection packs" which may contain 10, 50 or even 1000 images in just a few clicks`,
+      description: `Bulk Image Downloader is a streamlined web app designed to simplify mass image downloading. It enables users to effortlessly download "image packs" containing anywhere from 10 to 1,000 images with just a few clicks, saving time and effort when managing large image collections.`,
       stack: ["HTML", "CSS", "JS", "ReactJS"],
       images: [bulkOne, bulkTwo, bulkThree],
       links: [
@@ -48,9 +48,8 @@ function Projects() {
       ],
     },
     {
-      name: "Mathivities",
-      description: `Mathivities is a delightful web-based game designed to enhance the math skills of children aged 7 to 10.
-    Through engaging and fun-filled mathematical challenges, young learners can effectively sharpen their abilities while enjoying the learning process.`,
+      name: "Number Whiz",
+      description: `Number Whiz  is an exciting online game aimed at boosting the math skills of children aged 7 to 10. With captivating and enjoyable math challenges, young learners can improve their abilities while having fun throughout the learning journey.`,
       stack: ["HTML", "CSS", "JS", "ReactJS"],
       images: [mathOne, mathTwo, mathThree],
       links: [
