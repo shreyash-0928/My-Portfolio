@@ -7,7 +7,7 @@ import react from "../../assets/icons/react-original.svg";
 import redux from "../../assets/icons/redux-icon.svg";
 import SingleStack from "../SingleStack/SingleStack";
 import github from "../../assets/icons/github-icon.svg";
-import figma from "../../assets/icons/figma.svg"
+import figma from "../../assets/icons/figma.svg";
 import "./Stack.css";
 
 function Stack() {
