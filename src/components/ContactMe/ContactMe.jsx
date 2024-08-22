@@ -1,6 +1,6 @@
 import email from "../../assets/icons/email-icon.svg";
 import arrow from "../../assets/icons/light-arrow.svg";
-import linkedin from "../../assets/icons/linkedin.svg"
+import linkedin from "../../assets/icons/linkedin.svg";
 import github from "../../assets/icons/github-2-icon.svg";
 import "./ContactMe.css";
 
