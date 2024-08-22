@@ -33,8 +33,10 @@ const Magnet = ({ children, padding = 100, disabled = false }) => {
     };
 
     const handleMove = (clientX, clientY) => {
-      if (magnetRef.current && !isMobile) { // Disable magnet effect on mobile
-        const { left, top, width, height } = magnetRef.current.getBoundingClientRect();
+      if (magnetRef.current && !isMobile) {
+        // Disable magnet effect on mobile
+        const { left, top, width, height } =
+          magnetRef.current.getBoundingClientRect();
         const centerX = left + width / 2;
         const centerY = top + height / 2;
         const distX = Math.abs(centerX - clientX);
@@ -63,14 +65,19 @@ const Magnet = ({ children, padding = 100, disabled = false }) => {
   }, [padding, disabled, isMobile]);
 
   return (
-    <div ref={magnetRef} style={{ position: "relative", display: "inline-block", width: "100%" }}>
+    <div
+      ref={magnetRef}
+      style={{ position: "relative", display: "inline-block", width: "100%" }}
+    >
       <div
         style={{
           transform: `translate3d(${position.x}px, ${position.y}px, 0)`,
-          transition: isActive ? "transform 0.3s ease-out" : "transform 0.5s ease-in-out",
+          transition: isActive
+            ? "transform 0.3s ease-out"
+            : "transform 0.5s ease-in-out",
           willChange: "transform",
-          textAlign: isMobile ? "center" : "left", // Center text on mobile
-          width: isMobile ? "100%" : "auto", // Ensure full width on mobile
+          textAlign: isMobile ? "center" : "left",
+          width: isMobile ? "100%" : "auto",
         }}
       >
         {children}
