@@ -91,7 +91,10 @@ function Projects() {
 
         <div className="projects-container">{mappedProjects}</div>
 
-        <a href="https://github.com/shreyash-0928?tab=repositories" target="_blank">
+        <a
+          href="https://github.com/shreyash-0928?tab=repositories"
+          target="_blank"
+        >
           <button className="view-more">
             View more on Github
             <img src={arrow} alt="" />
