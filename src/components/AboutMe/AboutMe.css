@@ -66,7 +66,6 @@
   margin-right: 1rem; /* Adjust the value as needed for spacing */
 }
 
-
 @media screen and (min-width: 1100px) {
   .about-me-container > img {
     margin: 2rem 6rem 0 0;
@@ -91,7 +90,6 @@
     max-width: 250px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .about-me-container > img {
