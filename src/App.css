@@ -65,6 +65,21 @@ body {
   overflow-y: hidden;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #304357;
+  border-radius: 10px;
+}
+
 @font-face {
   font-family: clashGrotesk;
   src: url("./assets/fonts/ClashGrotesk-Variable.ttf");
