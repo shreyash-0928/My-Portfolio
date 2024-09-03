@@ -2,10 +2,10 @@ import { useState } from "react";
 import SingleProject from "../SingleProject/SingleProject";
 import "./Projects.css";
 
-// images
-import remindrOne from "../../assets/images/remindr/15shots_so-min.jpg";
-import remindrTwo from "../../assets/images/remindr/120shots_so-min.jpg";
-import remindrThree from "../../assets/images/remindr/471shots_so-min.jpg";
+// screenEclipce
+import seOne from "../../assets/images/screeneclipse/screenshot1.png"
+import seTwo from "../../assets/images/screeneclipse/screenshot2.png"
+import seThree from "../../assets/images/screeneclipse/screenshot3.png"
 
 //bulk downloader
 import bulkOne from "../../assets/images/bulk/168shots_so-min.jpg";
@@ -27,24 +27,24 @@ import arrow from "../../assets/icons/view-more-arrow.svg";
 function Projects() {
   const [projects, setProjects] = useState([
     {
-      name: "Remindr",
+      name: "ScreenEclipse",
       description:
-        "Remindr is a web-based tool designed to help users stay on top of important tasks and information that might slip through the cracks during their busy online activities. By utilizing customizable push notifications, it ensures timely reminders at intervals set by the user, making it easier to manage tasks without disrupting their workflow.",
-      stack: ["HTML", "CSS", "JS", "ReactJS"],
-      images: [remindrOne, remindrTwo, remindrThree],
+        "The website features a dynamic, cinematic dark theme with a left sidebar for easy navigation, a top search bar, and a prominent banner for featured content with a Watch Trailer button. Below, a card-based trending section displays popular titles with brief descriptions and more details.",
+      stack: ["HTML", "CSS", "JS", "ReactJS", "TMDB Api", ],
+      images: [seOne, seTwo, seThree],
       links: [
-        "https://remindr-webapp.netlify.app/",
-        "https://github.com/Daviddix/Remindr-webapp",
+        "https://screeneclipse.netlify.app/",
+        "https://github.com/shreyash-0928/screen-eclipse",
       ],
     },
     {
       name: "Bulk Image Downloader",
       description: `Bulk Image Downloader is a streamlined web app designed to simplify mass image downloading. It enables users to effortlessly download "image packs" containing anywhere from 10 to 1,000 images with just a few clicks, saving time and effort when managing large image collections.`,
-      stack: ["HTML", "CSS", "JS", "ReactJS"],
+      stack: ["HTML", "CSS", "JS", "ReactJS", "Unsplash Api"],
       images: [bulkOne, bulkTwo, bulkThree],
       links: [
         "https://bulk-downloader.netlify.app/",
-        "https://github.com/Daviddix/bulk-image-downloader",
+        "https://github.com/shreyash-0928/Bulk-image-downloader",
       ],
     },
     {
@@ -54,7 +54,7 @@ function Projects() {
       images: [mathOne, mathTwo, mathThree],
       links: [
         "https://mathivities.netlify.app",
-        "https://github.com/Daviddix/math-game",
+        "https://github.com/shreyash-0928/number-whiz",
       ],
     },
     {
