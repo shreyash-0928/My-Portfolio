@@ -1,7 +1,7 @@
 import { useState } from "react";
-import html from "../../assets/icons/html5-original.svg";
-import css from "../../assets/icons/css3-original.svg";
-import js from "../../assets/icons/javascript-original.svg";
+import html from "../../assets/icons/html.svg";
+import css from "../../assets/icons/css.svg";
+import js from "../../assets/icons/js.svg";
 import tailwind from "../../assets/icons/tailwindcss-plain.svg";
 import react from "../../assets/icons/react-original.svg";
 import redux from "../../assets/icons/redux-icon.svg";

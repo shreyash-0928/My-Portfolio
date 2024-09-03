@@ -30,7 +30,7 @@ function Projects() {
       name: "ScreenEclipse",
       description:
         "The website features a dynamic, cinematic dark theme with a left sidebar for easy navigation, a top search bar, and a prominent banner for featured content with a Watch Trailer button. Below, a card-based trending section displays popular titles with brief descriptions and more details.",
-      stack: ["HTML", "CSS", "JS", "ReactJS", "TMDB Api", ],
+      stack: ["ReactJS", "Redux", "TMDB Api"],
       images: [seOne, seTwo, seThree],
       links: [
         "https://screeneclipse.netlify.app/",
@@ -40,7 +40,7 @@ function Projects() {
     {
       name: "Bulk Image Downloader",
       description: `Bulk Image Downloader is a streamlined web app designed to simplify mass image downloading. It enables users to effortlessly download "image packs" containing anywhere from 10 to 1,000 images with just a few clicks, saving time and effort when managing large image collections.`,
-      stack: ["HTML", "CSS", "JS", "ReactJS", "Unsplash Api"],
+      stack: ["ReactJS", "Unsplash Api"],
       images: [bulkOne, bulkTwo, bulkThree],
       links: [
         "https://bulk-downloader.netlify.app/",
@@ -50,7 +50,7 @@ function Projects() {
     {
       name: "Number Whiz",
       description: `Number Whiz  is an exciting online game aimed at boosting the math skills of children aged 7 to 10. With captivating and enjoyable math challenges, young learners can improve their abilities while having fun throughout the learning journey.`,
-      stack: ["HTML", "CSS", "JS", "ReactJS"],
+      stack: ["ReactJS"],
       images: [mathOne, mathTwo, mathThree],
       links: [
         "https://mathivities.netlify.app",
@@ -61,7 +61,7 @@ function Projects() {
       name: "Daily Weather",
       description:
         "Not your average weather web app- it's packed with standard features like displaying the current temperature and weather details plus another cool feature, the ability of the background to adapt based on the current temperature or time",
-      stack: ["HTML", "CSS", "JS", "ReactJS"],
+      stack: ["HTML", "CSS", "JS"],
       images: [weatherOne, weatherTwo, weatherThree],
       links: [
         "https://daily-weather-forcast-webapp.netlify.app",
